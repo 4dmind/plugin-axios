@@ -4,6 +4,7 @@ import map from 'lodash/map';
 import merge from 'lodash/merge';
 import Context from '../common/context';
 import { ModuleConfig, ModelConfig } from '../support/interfaces';
+import queryString from 'query-string';
 
 export default class Action {
   /**
